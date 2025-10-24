@@ -76,8 +76,8 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: "Times New Roman", Times, serif;
+  --font-mono: "Times New Roman", Times, serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -122,5 +122,9 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: "Times New Roman", Times, serif;
+  }
+  html {
+    font-family: "Times New Roman", Times, serif;
   }
 }
